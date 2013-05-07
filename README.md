@@ -1,7 +1,7 @@
 Observed
 ========
 
-A Javascript mixin that can notify listeners of when the host object's properties change.
+A Javascript mixin that can notify listeners of when the host object's properties change. At the moment, the mixin adds one method: `onChange(e)`.
 
 Example
 -------
