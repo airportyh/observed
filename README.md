@@ -14,9 +14,7 @@ Example
       this.name = name
     })
     var user = new User('bob')
-    var called = false
     user.onChange(function(e){
-      deepEqual(e.properties, ['name'])
-      called = true
+      console.log('You changed me!')
     })
     user.setName('james')
