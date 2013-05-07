@@ -15,6 +15,7 @@ Example
     })
     var user = new User('bob')
     user.onChange(function(e){
-      console.log('You changed me!')
+      console.log('You changed the properties ' + e.properties.join(', ') +
+        ' of the user object.')
     })
     user.setName('james')
